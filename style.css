@@ -179,3 +179,47 @@ header nav ul li a{
   font-weight: 400;
   color: #627382;
 }
+.solution-section {
+  background: #fff;
+  padding: 120px 0;
+
+}
+.solution-section .container{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.solution-section .content .title{
+  text-transform: uppercase;
+  color: #30B868;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.solution-section .content h2{
+  color: #001931;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.solution-section .content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 16px;
+
+}
+.solution-section .content ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: #001931;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
