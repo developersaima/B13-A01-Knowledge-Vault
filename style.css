@@ -74,7 +74,7 @@ header nav ul li a{
 
 }
 .banner-section{
-  background: url(../assets/hero-bg.png);
+  background: url(assets/hero-bg.png);
   background-size: cover;
   background-position: center center;
   padding: 116px 0 180px;
@@ -251,4 +251,53 @@ text-transform: capitalize;
   font-weight: 400;
   color: #627382;
   margin-bottom: 8px;
+}
+footer{
+  background: #001931;
+  
+}
+.footer-info{
+  padding: 120px 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 1px solid #d9d9d993;
+}
+.social-links{
+  width: 220px;
+  color: #fff;
+}
+.social-links p{
+  font-weight: 500;
+  margin-bottom: 16px;
+  font-size: 20px;
+
+}
+.social-icons{
+  display: flex;
+  gap: 16px;
+
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon i{
+  font-size: 11.5px;
+  cursor: pointer;
+}
+
+.copyright-section{
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+
 }
