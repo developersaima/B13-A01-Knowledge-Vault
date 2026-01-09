@@ -124,3 +124,58 @@ header nav ul li a{
   gap: 16px;
 
 }
+.notes-section{
+  background: #fbfbfb;
+  padding: 60px 0 120px;
+  text-align: center;
+}
+.notes-section .notes-title h2{
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.notes-section .notes-title p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-bottom: 44px;
+}
+.notes-card {
+  display: flex;
+  justify-content: space-between;
+}
+.notes-card .card{
+  max-width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 69.5px 24px;
+  box-shadow: 0 0 8px 0 rgba(0, 0,0,0.06) ;
+}
+
+.notes-card .card .img-box{
+  background: #f95555;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notes-card .card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  text-transform: capitalize;
+}
+.notes-card .card p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+}
